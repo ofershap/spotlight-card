@@ -2,10 +2,18 @@
 
 [![npm version](https://img.shields.io/npm/v/spotlight-card)](https://www.npmjs.com/package/spotlight-card)
 [![npm downloads](https://img.shields.io/npm/dm/spotlight-card)](https://www.npmjs.com/package/spotlight-card)
-[![license](https://img.shields.io/npm/l/spotlight-card)](https://github.com/ofershap/spotlight-card/blob/main/LICENSE)
 [![CI](https://github.com/ofershap/spotlight-card/actions/workflows/ci.yml/badge.svg)](https://github.com/ofershap/spotlight-card/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
+[![license](https://img.shields.io/npm/l/spotlight-card)](https://github.com/ofershap/spotlight-card/blob/main/LICENSE)
 
-Animated spotlight card for React. Mouse-tracking radial gradient that follows the cursor. Zero dependencies. Works with any styling solution.
+A React component that adds a mouse-tracking radial glow to any card. One import, zero dependencies, works with Tailwind or inline styles.
+
+```tsx
+<SpotlightCard className="p-8 rounded-xl bg-zinc-900 border border-zinc-800">
+  <h3>Hover me</h3>
+  <p>The spotlight follows your cursor.</p>
+</SpotlightCard>
+```
 
 ![Demo](assets/demo.gif)
 
@@ -101,12 +109,6 @@ Returns `{ containerRef, spotlightStyle, handlers, state }`.
 - **`spotlightStyle`** — CSS for the spotlight overlay
 - **`handlers`** — `{ onMouseMove, onMouseEnter, onMouseLeave }`
 - **`state`** — `{ x, y, isHovered }`
-
-## Other Projects
-
-- [ts-nano-event](https://github.com/ofershap/ts-nano-event) — Typed event emitter in <200 bytes
-- [use-stepper](https://github.com/ofershap/use-stepper) — React hook for multi-step forms
-- [react-rtl-utils](https://github.com/ofershap/react-rtl-utils) — React utilities for RTL layouts
 
 ## License
 
