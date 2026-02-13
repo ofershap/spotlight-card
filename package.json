@@ -1,0 +1,71 @@
+{
+  "name": "spotlight-card",
+  "version": "0.0.0-development",
+  "description": "Animated spotlight card component for React — mouse-tracking radial gradient effect",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "registry"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "react",
+    "spotlight",
+    "card",
+    "animation",
+    "hover",
+    "mouse-tracking",
+    "radial-gradient",
+    "tailwindcss",
+    "shadcn",
+    "ui-component"
+  ],
+  "author": "Ofer Shapira <ofer@ofershap.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofershap/spotlight-card.git"
+  },
+  "homepage": "https://github.com/ofershap/spotlight-card",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^3.0.0"
+  }
+}
