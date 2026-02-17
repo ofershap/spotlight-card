@@ -1,6 +1,6 @@
 {
   "name": "spotlight-card",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Animated spotlight card component for React — mouse-tracking radial gradient effect",
   "type": "module",
   "exports": {
