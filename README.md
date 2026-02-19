@@ -1,4 +1,4 @@
-# spotlight-card
+# Spotlight Card — React Mouse-Tracking Hover Glow Component
 
 [![npm version](https://img.shields.io/npm/v/spotlight-card)](https://www.npmjs.com/package/spotlight-card)
 [![npm downloads](https://img.shields.io/npm/dm/spotlight-card)](https://www.npmjs.com/package/spotlight-card)
@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![license](https://img.shields.io/npm/l/spotlight-card)](https://github.com/ofershap/spotlight-card/blob/main/LICENSE)
 
-A React component that adds a mouse-tracking radial glow to any card. One import, zero dependencies, works with Tailwind or inline styles.
+A React component that adds a mouse-tracking radial glow effect to any card. One import, zero dependencies, works with Tailwind CSS or inline styles.
 
 ```tsx
 <SpotlightCard className="p-8 rounded-xl bg-zinc-900 border border-zinc-800">
@@ -15,7 +15,7 @@ A React component that adds a mouse-tracking radial glow to any card. One import
 </SpotlightCard>
 ```
 
-![Demo](assets/demo.gif)
+![spotlight-card demo — mouse-tracking radial glow effect on a React card component](assets/demo.gif)
 
 ## Install
 
